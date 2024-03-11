@@ -1,0 +1,261 @@
+{
+  "id": "d802715e-e7fa-43ae-b94a-7ef19d0703fa",
+  "version": "2.0",
+  "name": "TEST",
+  "url": "https:\\\\google.com\\",
+  "tests": [{
+    "id": "471574c9-f947-44ed-93a2-209fa557a086",
+    "name": "TEST",
+    "commands": [{
+      "id": "344dc442-6b49-4798-8e88-c312f1b0192e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c51c58e-a223-45d4-8848-83aa265798c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfa2fed0-ddde-405d-aa37-8ff1ee918256",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d24f80e5-6daa-4dfe-b711-564de631902a",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "geosense"
+    }, {
+      "id": "79d1f048-cddb-4e63-86a4-569f502bc3b3",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e9ea745-c4ed-486d-ba12-bbcc91c0e7ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=#rso > .MjjYud:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=#rso > .MjjYud:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'天思數位科技')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa6e1a15-57c3-4ce7-80c9-518e102ef7a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=English",
+      "targets": [
+        ["linkText=English", "linkText"],
+        ["css=.language-link > a", "css:finder"],
+        ["xpath=//a[contains(text(),'English')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'en/index.html')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66047997-c1ea-4f27-ace3-095ab720e863",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(3) img",
+      "targets": [
+        ["css=.col-sm-12:nth-child(3) img", "css:finder"],
+        ["xpath=//section[@id='news']/div/div/div[3]/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92a50479-7484-49b5-9da6-cdf8eb6d6ac8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(3) a",
+      "targets": [
+        ["css=.col-sm-12:nth-child(3) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'More')])[8]", "xpath:link"],
+        ["xpath=//section[@id='news']/div/div/div[3]/div[2]/p[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'news.html')])[5]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/p[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30a633c3-fdd5-4386-9f3a-b8b67602e4eb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=more",
+      "targets": [
+        ["linkText=more", "linkText"],
+        ["css=.row:nth-child(6) a", "css:finder"],
+        ["xpath=//a[contains(text(),'more')]", "xpath:link"],
+        ["xpath=//section[@id='about-us']/div/div/div[4]/div[2]/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.fcu.edu.tw/news/2022072201/')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'more')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5011",
+      "windowTimeout": 2000
+    }, {
+      "id": "2d935ed9-decf-497c-9932-d06856719e92",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c2b848f-46fb-4a18-ae9b-825ae8d38c62",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5011}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ff9e439-b428-40a9-890c-ef607c6f6db7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.o-header__hamburger > span:nth-child(2)",
+      "targets": [
+        ["css=.o-header__hamburger > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='wrapper']/header/div[2]/nav/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2378a7e6-a821-4dc3-9930-982b4b79046a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=本國生新生專區",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "578c6328-de9c-4486-956d-0c952f96c52e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=本國生新生專區",
+      "targets": [
+        ["linkText=本國生新生專區", "linkText"],
+        ["css=.o-site-menu__list-item:nth-child(1) .o-site-menu__child-list-item:nth-child(7) > .o-site-menu__child-list-link", "css:finder"],
+        ["xpath=//a[contains(text(),'本國生新生專區')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/header/div[2]/nav/div/div/div/div/div/div/div/div[2]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://freshman.fcu.edu.tw/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'本國生新生專區')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6645",
+      "windowTimeout": 2000
+    }, {
+      "id": "954516e1-798a-4edc-921b-8363b32d2e41",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6645}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1c9c794-3928-419e-9d09-2860a5d2e044",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cae95af-f7b7-4158-863d-0b7cba4855ae",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6645}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df22cf04-8ab5-4549-9d41-40c525bebc69",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5011}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de11b965-3012-4303-90ed-3fa4116480d6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6645}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2dd7ccb-4745-410e-a8f6-30fa2999011d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09ee0cb7-6a76-4b83-83bf-40255c3905bb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5011}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7c27a50-ab49-45ab-9a79-b6f79e63a693",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17339480-3164-4688-b434-fa1913db3321",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "426252e8-2f6e-4ced-b642-2f4a07094cf2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8f17adff-d4b1-4847-b8dc-b5145e1a69b7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["471574c9-f947-44ed-93a2-209fa557a086"]
+  }],
+  "urls": ["https://google.com/"],
+  "plugins": []
+}
